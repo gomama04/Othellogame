@@ -153,11 +153,11 @@ public class Othello {
         System.out.println("黒: " + blackCount);
         System.out.println("白: " + whiteCount);
         if (blackCount > whiteCount) {
-            System.out.println("黒の勝ち！");
+            System.out.println("黒の勝ち");
         } else if (whiteCount > blackCount) {
-            System.out.println("白の勝ち！");
+            System.out.println("白の勝ち");
         } else {
-            System.out.println("引き分け！");
+            System.out.println("引き分け");
         }
     }
 
